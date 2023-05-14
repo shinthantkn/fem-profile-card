@@ -30,7 +30,7 @@ This profile card consists of a banner image, profile info and stats sections.
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-PvEbiBB8-Y)
 - [Live Site](https://stk-profile-card.netlify.app/)
 
 ## My process
