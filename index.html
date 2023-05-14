@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="@shinthantkn" />
+    <meta
+      name="@shinthantkn's solution to frontendmentor.io's profile card component challenge."
+    />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
 
-  80K
-  Followers
+  <body>
+    <main>
+      <section class="profile__card">
+        <img
+          src="./assets/images/bg-pattern-card.svg"
+          alt="Decorative Pattern for Profile Card"
+          class="banner"
+        />
 
-  803K
-  Likes
+        <div class="profile__info">
+          <figure class="profile__figure">
+            <img
+              src="./assets/images/image-victor.jpg"
+              alt="Profile Picture of Victor Crest"
+              class="profile__picture"
+            />
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+            <figcaption>
+              <div class="profile__header">
+                <h1 class="profile__name">Victor Crest</h1>
+                <p class="profile__detail">26</p>
+              </div>
+
+              <p class="profile__detail">London</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="profile__stats">
+          <div class="stats__row">
+            <div class="stat">
+              <h2 class="stat__number">80k</h2>
+              <p class="stat__type">Followers</p>
+            </div>
+            <div class="stat">
+              <h2 class="stat__number">803k</h2>
+              <p class="stat__type">Likes</p>
+            </div>
+            <div class="stat">
+              <h2 class="stat__number">1.4k</h2>
+              <p class="stat__type">Photos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
